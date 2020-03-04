@@ -14,6 +14,7 @@ echo "export ALIASES_COMMON_PATH=~/.aliases-common.sh" >> $RC_PATH
 echo "export ALIASES_LOCAL_PATH=~/.aliases-local.sh" >> $RC_PATH
 echo "export RC_PATH=~/.bashrc" >> $RC_PATH
 echo "source .aliases-common.sh" >> $RC_PATH
+echo "source .aliases-local.sh" >> $RC_PATH
 source $RC_PATH
 ```
 
