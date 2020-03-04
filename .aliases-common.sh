@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 
-# Put these in .bashrc
-export ALIASES_COMMON_PATH=~/.aliases-common.sh
-export ALIASES_LOCAL_PATH=~/.aliases-local.sh
-export RC_PATH=~/.bashrc
-
 alias pxn="ps ax | grep node";
-alias st="SleepTimer";
-alias startMongo='sudo mongod --fork --logpath /home/pi/hayden/mongologs/logfile';
-alias sdn='sudo systemctl poweroff'
-gal(){ grep -i $1 $ALIASES_COMMON_PATH }
+
+# Git
+alias ac='git ac';
+alias gc='git commit -m';
+alias p='ac && git push orign HEAD';
+alias gs='git s';
+delb(){ git branch -d $1; }
 
 # Docker
 alias ds="sudo docker service"
@@ -22,6 +20,7 @@ alias drm="sudo docker rm"
 
 # Navigation
 alias l='ls';
+alias la='ls -a';
 alias u='cd ..';
 alias c='cd';
 alias r='clear';
@@ -30,6 +29,7 @@ alias r='clear';
 alias wb="vim $ALIASES_LOCAL_PATH";
 alias wbc="vim $ALIASES_COMMON_PATH";
 alias lb='source ~/.bashrc';
+gal(){ grep -i $1 $ALIASES_COMMON_PATH; }
 
 alias aa='addAlias';
 addAliasLocal(){
