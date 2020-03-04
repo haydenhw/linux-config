@@ -4,7 +4,6 @@ Copy the following into shell to install...
 RC_PATH=~/.bashrc
 CONFIG_PATH=~/common-config/
 
-cd ~/
 git clone https://github.com/haydenhw/linux-config $CONFIG_PATH
 cd $CONFIG_PATH
 ln -s "$CONFIG_PATH".aliases-common.sh ~/
