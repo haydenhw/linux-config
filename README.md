@@ -1,6 +1,6 @@
 Copy Into Shell
 
-sh ```
+``` sh 
 RC_PATH=~/.bashrc
 CONFIG_PATH=~/common-config/
 
