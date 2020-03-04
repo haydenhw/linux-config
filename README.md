@@ -1,4 +1,4 @@
-Copy Into Shell
+Copy the following into shell to install... 
 
 ``` sh 
 RC_PATH=~/.bashrc
